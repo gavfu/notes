@@ -2,11 +2,10 @@
 tags: [decoo]
 title: CrustGraph - Crust Order Indexing Service
 created: '2022-11-22T05:00:53.071Z'
-modified: '2022-11-22T05:01:08.910Z'
+modified: '2022-11-22T05:05:28.640Z'
 ---
 
 CrustGraph - Crust Order Indexing Service
-
 
 # 目的
 
@@ -41,8 +40,8 @@ CrustGraph - Crust Order Indexing Service
 
 ```json
 {
-    withRefs: true,
-    origins: [
+    "withRefs": true,
+    "origins": [
         "/ip4/203.0.113.142/tcp/4001/p2p/QmSourcePeerId",
         "/ip4/203.0.113.114/udp/4001/quic/p2p/QmSourcePeerId"
     ]
